@@ -2,10 +2,9 @@
 
 import { useEffect, useState } from 'react'
 import { WebApp } from '@twa-dev/types'
-import Image from 'next/image';
 
-
-import wheel_test from './wheel_test.png';
+import Image from 'next/image'
+import { wheel } from '@/images'
 
 declare global {
   interface Window {
@@ -96,8 +95,8 @@ export default function Home() {
         Increase Points
       </button>
       <Image
-                        src={wheel_test}
-                        alt=""
+                        src={wheel}
+                        alt="sparkles"
                         width={180}
                         height={180}
                     />
